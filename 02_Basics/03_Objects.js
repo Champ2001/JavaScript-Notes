@@ -17,7 +17,7 @@ const JsUser = {
 }
 
 console.log(JsUser.email)
-//! We can also access the onject in the form of square brackets 
+//! We can also access the object in the form of square brackets 
 
 console.log(JsUser["email"]) // we have to use inverted commas because by default the keys are being stored in the form of string For example name will be stored in the form of "name"
 
@@ -25,6 +25,7 @@ console.log(JsUser["email"]) // we have to use inverted commas because by defaul
 console.log(JsUser["full name"])
 
 console.log(JsUser[mySymbol])
+console.log(JsUser.mySymbol) //!This will give undefined as we have to access the keys through the third brackets only
 
 //! Change Value
 JsUser.email="sranva@gmail.com"

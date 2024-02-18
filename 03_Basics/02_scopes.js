@@ -12,7 +12,7 @@ function one(){
         const website ="youtube"
         console.log(username);
     }
-    // console.log(website);//! Cannot be accessed
+    //console.log(website);//! Cannot be accessed
     two()
 }
 one()

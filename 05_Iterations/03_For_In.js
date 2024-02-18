@@ -1,4 +1,4 @@
-//! For in loops
+//! For in loops - mainly used in objects and arrays
 const myObject = {
     cpp: "C++",
     rb: "ruby",
@@ -24,4 +24,10 @@ map.set('Fr', "France")
 
 for (const key in map) {
     console.log(key) //! not possible as map is not iterable
+}
+//! For of - mainly used in strings and arrays
+const str = "Apna college"
+
+for(let i of str){
+    console.log(i)
 }

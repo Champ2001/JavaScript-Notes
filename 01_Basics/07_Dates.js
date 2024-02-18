@@ -22,6 +22,6 @@ console.log(myCreatedDate.getTime()); //! Gives time in millisecond .We can comp
 console.log(Math.floor(Date.now()/1000))
 
 //! toLocaleString customisations. First default is for country and then we can declare an object for further customisations ...
-console.log(myDate.toLocaleString('default', {
+console.log(myDate.toLocaleString('default', {  
     weekday: "long" 
 }))

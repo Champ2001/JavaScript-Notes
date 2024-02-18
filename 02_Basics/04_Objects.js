@@ -25,7 +25,7 @@ const obj3 = {obj1, obj2}
 console.log(obj3) //! same issue of object inside object like arrays .To solve this issue we use assign operator 
 
 const obj4 = Object.assign({} ,obj1, obj2);//! use of {} is optional but it always ensures that it is made into one object 
-console.log(obj3)
+console.log(obj4)
 
 //! Out of all these techniques the use of spread operator is the most convenient one
 

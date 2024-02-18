@@ -5,7 +5,7 @@ for(let i = 0;i<10;i++){
 
 //! While loop
 let arr =0;
-let myArray =[];
+let myArray =[1,2,3];
 while(arr<myArray.length){
     console.log(myArray[arr]);
     arr++;

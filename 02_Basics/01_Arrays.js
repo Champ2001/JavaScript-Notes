@@ -12,6 +12,7 @@ myArr.push(6)
 myArr.push(7)
 myArr.pop()
 myArr.unshift(9) //! Enters the element in the start of the array which might be costly at some instances bcoz if there are 10000 values we need to shift all the other value by one index 
+console.log(myArr)
 
 myArr.shift() //! Removes the first element
 console.log(myArr)
